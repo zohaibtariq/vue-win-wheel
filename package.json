@@ -1,11 +1,12 @@
 {
-  "name": "vue-win-wheel",
+  "name": "vuewinwheel",
   "version": "1.0.0",
   "type": "module",
   "files": ["dist"],
-  "main": "./dist/vue-win-wheel.umd.cjs",
-  "module": "./dist/vue-win-wheel.js",
+  "main": "./dist/vuewinwheel.umd.cjs",
+  "module": "./dist/vuewinwheel.js",
   "types": "./dist/main.d.ts",
+  "license": "MIT",
   "author": {
     "name": "Zohaib Tariq",
     "email": "zebwebdev@gmail.com",
@@ -13,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zohaibtariq/vue-win-wheel.git"
+    "url": "https://github.com/zohaibtariq/vuewinwheel.git"
   },
   "exports": {
     ".": {
-      "import": "./dist/vue-win-wheel.js",
-      "require": "./dist/vue-win-wheel.umd.js"
+      "import": "./dist/vuewinwheel.js",
+      "require": "./dist/vuewinwheel.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },

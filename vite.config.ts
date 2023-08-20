@@ -10,7 +10,7 @@ export default defineConfig({
       entry: resolve(__dirname, 'lib/main.ts'),
       name: 'VueWinWheel',
       // the proper extensions will be added
-      fileName: 'vue-win-wheel'
+      fileName: 'vuewinwheel'
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

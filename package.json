@@ -1,12 +1,20 @@
 {
   "name": "vue-win-wheel",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/vue-win-wheel.umd.cjs",
   "module": "./dist/vue-win-wheel.js",
   "types": "./dist/main.d.ts",
+  "author": {
+    "name": "Zohaib Tariq",
+    "email": "zebwebdev@gmail.com",
+    "url": "https://www.linkedin.com/in/zohaib-tariq/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zohaibtariq/vue-win-wheel.git"
+  },
   "exports": {
     ".": {
       "import": "./dist/vue-win-wheel.js",

@@ -1,10 +1,10 @@
 {
-  "name": "vue3winwheel",
+  "name": "@zohaibtariq/vuewinwheel",
   "version": "1.0.0",
   "type": "module",
   "files": ["dist"],
-  "main": "./dist/vue3winwheel.umd.cjs",
-  "module": "./dist/vue3winwheel.js",
+  "main": "./dist/vuewinwheel.umd.cjs",
+  "module": "./dist/vuewinwheel.js",
   "types": "./dist/main.d.ts",
   "license": "MIT",
   "author": {
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zohaibtariq/vue3winwheel.git"
+    "url": "https://github.com/zohaibtariq/vuewinwheel.git"
   },
   "exports": {
     ".": {
-      "import": "./dist/vue3winwheel.js",
-      "require": "./dist/vue3winwheel.umd.js"
+      "import": "./dist/vuewinwheel.js",
+      "require": "./dist/vuewinwheel.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },

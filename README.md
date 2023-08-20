@@ -1,2 +1,2 @@
-# Vue Win Wheel
+# Vue 3 Win Wheel
 

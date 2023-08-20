@@ -105,8 +105,6 @@ const options = { // basic_code_wheel
 };
 */
 
-/*
- *
 const options = { // wheel_of_fortune
   'outerRadius'     : 212,        // Set outer radius so wheel fits inside the background.
   'innerRadius'     : 75,         // Make wheel hollow so segments don't go all way to center.
@@ -157,7 +155,6 @@ const options = { // wheel_of_fortune
         'outerRadius': 4,
       }
 };
-*/
 
 /*
  *
@@ -193,6 +190,8 @@ const options = { // basic_image_wheel
 };
 */
 
+/*
+ *
 const options = { // one_image_per_segment
   'numSegments'       : 8,                // Specify number of segments.
   'outerRadius'       : 200,              // Set outer radius so wheel fits inside the background.
@@ -225,6 +224,8 @@ const options = { // one_image_per_segment
         'callbackFinished' : spinStopped
       }
 }
+*/
+
 
 /*
  *

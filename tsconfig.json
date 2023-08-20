@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", /* ES2020 is replaced with ESNext */
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ESNext","ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "Node", /* bundler is replaced with Node */
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    /*"noEmit": true,*/
+    "jsx": "preserve",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "declaration": true,
+    "allowJs": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
+
+  },
+  /* src is  replaced with lib */
+  "include": ["lib/**/*.ts", "lib/**/*.d.ts", "lib/**/*.tsx", "lib/**/*.vue", "lib/**/*.png", "lib/**/*.mp3"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

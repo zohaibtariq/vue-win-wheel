@@ -1,9 +1,13 @@
 # Vue 3 Win Wheel
+###### This is based on library winwheel.js, all examples are in vue 3 composition api, it helps you programatically stop at any segment of your criteria just pass segment number in ```stopAt``` variable.
 
 ### install with
 ```
 npm i @zohaibtariq/vuewinwheel
 ```
+
+### npmjs
+[@zohaibtariq/vuewinwheel](https://www.npmjs.com/package/@zohaibtariq/vuewinwheel)
 
 ## Vue 3 Winwheel [Examples](http://dougtesting.net/winwheel/examples)
 
